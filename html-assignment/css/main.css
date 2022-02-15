@@ -1,0 +1,36 @@
+body {
+    font-size: 18px;
+}
+h1, h2, h3,footer{
+    background-color: pink;
+}
+.site-title{
+    color: steelblue;
+}
+#my-image{
+    box-shadow: 0px 0px 2px 1px black;
+}
+
+dl:nth-child(2){
+    background: pink;
+}
+
+ul {
+    list-style-type: square;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:link {
+    background-color: powderblue;
+}
+a:link {
+     border:1px solid steelblue; 
+}
+
+a:hover{
+    background-color: pink; 
+}
+  
