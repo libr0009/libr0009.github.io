@@ -1,17 +1,93 @@
 body {
     background-color:#aad4cf;
+    font-family:Arial, Helvetica, sans-serif
 }
 
+
+/* Header image with h1 text in center*/
 .Header, h1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
     position:absolute;
     color:white;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 2.5rem;
+    font-size: 3rem;
     top: 20%;
     left: 50%;
     transform: translate(-50%,-50%)
 }
+
+
+/*nav bar*/
+.box {
+    position:relative;
+    width: 338px;
+    height: 50px;
+    top:310px;
+    display: inline-block;
+    text-align: center;
+    background-color: lightcyan;
+}
+
+
+/* making nav bar interactive*/
+.box:hover {
+    background-color:#aad4cf ;
+}
+
+
+/*centering nav bar to align with header image*/
+.home,.story,.contact {
+    left: 14%;
+}
+
+
+/*for aligning content and background color*/
+.content {
+    background-color: lightcyan;
+    width: 1023px;
+    position:absolute;
+    top:365px;
+    left:14.4%;
+}
+
+
+/*sizing image and putting a float*/
+.Starfish {
+    width: 200px;
+    float: left;
+}
+
+
+/*removing bold font weight for headers*/
+h2,h3,h4 {
+    font-weight: normal;
+}
+
+
+/*increase font size for h4*/
+h4 {
+    font-size: 18px;
+}
+
+
+/*setting left and right margin for content in the article*/
+h2,h3,.Starfish,article {
+    margin-left: 10px;
+    margin-right:10px;
+}
+
+
+/*setting margins all around for form box*/
+fieldset {
+    margin: 10px;
+}
+
+
+/*positioning footer on bottom right hand side with corresponding margin with the rest of the site*/
+footer {
+    text-align:right;
+    margin-right: 10px;
+}
+
 
