@@ -84,10 +84,12 @@ fieldset {
 }
 
 
-/*positioning footer on bottom right hand side with corresponding margin with the rest of the site*/
+/*positioning footer on bottom right hand side with margins*/
 footer {
     text-align:right;
-    margin-right: 10px;
+    margin-right: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 
