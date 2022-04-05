@@ -1,0 +1,14 @@
+.container1{
+    background-color: rgb(27, 27, 27);
+    width: 500px;
+    height: 500px;
+}
+
+.box {
+    background-color: rgb(199, 139, 29);
+}
+
+.box2 {
+    width: fit-content;
+    height: fit-content;
+}
