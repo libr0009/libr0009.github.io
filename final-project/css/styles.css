@@ -6,6 +6,7 @@
 
 .container1 ul{
     color: rgb(199, 139, 29);
+    list-style: none;
 }
 
 .box {
@@ -18,6 +19,10 @@
     border: 1.5px grey;
     max-width: 450px;
     margin: 5%;
+}
+
+.fa-magnifying-glass{
+    color: black;
 }
 
 
