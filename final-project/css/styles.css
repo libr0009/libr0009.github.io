@@ -4,11 +4,44 @@
     height: 500px;
 }
 
+.container1 ul{
+    color: rgb(199, 139, 29);
+}
+
 .box {
     background-color: rgb(199, 139, 29);
 }
 
-.box2 {
-    width: fit-content;
-    height: fit-content;
+.searchbar {
+    background-color: white;
+    color: grey;
+    border: 1.5px grey;
+    max-width: 450px;
+    margin: 5%;
+}
+
+
+.mainbackground {
+    background: url(../images/main-banner.jpg);
+    max-width: 500px;
+    height: 420px;
+    background-size: 100% 100%
+}
+
+.bannertext {
+    background-color: black;
+    opacity: 0.6;
+    max-width: fit-content;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 25px;
+    
+}
+
+.bannertext h1{
+    color: white;
+    font-weight: bold;
+}
+
+.bannertext p{
+    color: white;
 }
