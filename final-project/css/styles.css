@@ -1,7 +1,5 @@
 .container1{
     background-color: rgb(27, 27, 27);
-    width: 500px;
-    height: 500px;
 }
 
 .container1 ul{
@@ -17,7 +15,6 @@
     background-color: white;
     color: grey;
     border: 1.5px grey;
-    max-width: 450px;
     margin: 5%;
 }
 
@@ -28,8 +25,6 @@
 
 .mainbackground {
     background: url(../images/main-banner.jpg);
-    max-width: 500px;
-    height: 420px;
     background-size: 100% 100%
 }
 
@@ -45,8 +40,66 @@
 .bannertext h1{
     color: white;
     font-weight: bold;
+    font-size: 50px;
+    opacity: 1;
 }
 
 .bannertext p{
     color: white;
+    opacity: 1;
 }
+
+.button1 {
+    background-color: rgb(199, 139, 29);
+}
+
+.button1 h2{
+    opacity: 1;
+    color: #ffff;
+}
+
+.aboutus {
+    background-color: #FCE7B3;
+}
+
+.digitalt {
+    background-color: #FCE7B3;
+}
+
+.market {
+    background-color: #FCE7B3;
+}
+
+.videop {
+    background-color: #FCE7B3;
+}
+
+.webdev {
+    background-color: #FCE7B3;
+}
+
+.prt {
+    background-color: #FCE7B3;
+}
+
+.vision {
+    background: url(../images/vision.jpg);
+    background-size: 100% 100%;
+}
+
+.vision h1, .vision p {
+    color: #ffff;
+}
+
+.button7 h2{
+    color: #ffff;
+}
+
+.jd {
+    background-color: #FCE7B3;
+}
+
+.br {
+    background-color: #FCE7B3;
+}
+
