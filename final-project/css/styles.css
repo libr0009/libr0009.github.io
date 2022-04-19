@@ -1,11 +1,60 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 
 
+/* to apply open sans font to website*/
 h1, h2, h3, p { 
     font-family: 'Roboto', sans-serif;
 }
 
 @media screen and (max-width: 760px){
-
+/*not finished*/
 }
 
 .container1{
@@ -14,7 +63,7 @@ h1, h2, h3, p {
     width: 760px;
 }
 
-
+/*to style the nav, and set nav links to the center*/
 .container1 ul{
     color: #c78c06;
     list-style: none;
@@ -25,6 +74,7 @@ h1, h2, h3, p {
     background-color: #c78c06;
 }
 
+/*to give the selected list item a different property to the rest of the list items*/
 .selected li {
     text-align: center;
     color: #222;
@@ -34,14 +84,18 @@ h1, h2, h3, p {
     background-color: #ffff;
     color: rgb(126, 125, 125);
     border: 1.5px rgb(126, 125, 125);
+    width: 640px;
     margin: 5%;
 }
 
-.fa-magnifying-glass{
-    color: #222;
+.magnifying {
+    color: #c78c06;
+    border-style: solid;
+    border-color: #c78c06;
+    width: fit-content;
 }
 
-
+/*makes banner image background image for container.*/
 .mainbackground {
     background: url(../images/main-banner.jpg);
     background-size: 100% 100%;
@@ -49,7 +103,7 @@ h1, h2, h3, p {
     width: 760px;
     height: 550px;
 }
-
+/*adds a transparent black container ontop of main background without interfering with text inside*/
 .bannertext {
     background-color: rgba(34, 34, 34, 0.537);
     max-width: fit-content;
@@ -58,19 +112,18 @@ h1, h2, h3, p {
     top: 70%;
     width: 740px;
 }
-
+/*adds color and style to text in the banner*/
 .bannertext h1{
     color: white;
     font-weight: bold;
     font-size: 50px;
-    opacity: 1;
 }
 
 .bannertext p{
     color: white;
-    opacity: 1;
 }
 
+/*to style connect with us button*/
 .button1 {
     background-color: rgb(199, 139, 29);
     width: fit-content;
