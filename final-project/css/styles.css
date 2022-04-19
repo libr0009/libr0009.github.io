@@ -1,40 +1,62 @@
-.container1{
-    background-color: rgb(27, 27, 27);
+
+
+h1, h2, h3, p { 
+    font-family: 'Roboto', sans-serif;
 }
 
+@media screen and (max-width: 760px){
+
+}
+
+.container1{
+    background-color: #222;
+    font-family: 'Roboto', sans-serif;
+    width: 760px;
+}
+
+
 .container1 ul{
-    color: rgb(199, 139, 29);
+    color: #c78c06;
     list-style: none;
+    text-align: center;
 }
 
 .box {
-    background-color: rgb(199, 139, 29);
+    background-color: #c78c06;
+}
+
+.selected li {
+    text-align: center;
+    color: #222;
 }
 
 .searchbar {
-    background-color: white;
-    color: grey;
-    border: 1.5px grey;
+    background-color: #ffff;
+    color: rgb(126, 125, 125);
+    border: 1.5px rgb(126, 125, 125);
     margin: 5%;
 }
 
 .fa-magnifying-glass{
-    color: black;
+    color: #222;
 }
 
 
 .mainbackground {
     background: url(../images/main-banner.jpg);
-    background-size: 100% 100%
+    background-size: 100% 100%;
+    font-family: 'Roboto', sans-serif;
+    width: 760px;
+    height: 550px;
 }
 
 .bannertext {
-    background-color: black;
-    opacity: 0.6;
+    background-color: rgba(34, 34, 34, 0.537);
     max-width: fit-content;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 25px;
-    
+    padding: 10px;
+    position: absolute;
+    top: 70%;
+    width: 740px;
 }
 
 .bannertext h1{
@@ -51,40 +73,105 @@
 
 .button1 {
     background-color: rgb(199, 139, 29);
+    width: fit-content;
+    padding: 5px;
 }
 
 .button1 h2{
     opacity: 1;
-    color: #ffff;
+    color: #222;
+    margin: 25px;
 }
 
 .aboutus {
-    background-color: #FCE7B3;
+    background-color: #ffe6ac;
+    width: 760px;
+}
+
+.aboutus h1, p {
+    margin: 5%;
+}
+
+.aboutus img {
+    width: 730px;
+    margin: 15px;
 }
 
 .digitalt {
-    background-color: #FCE7B3;
+    background-color: #ffe6ac;
+    width: 760px;
+}
+
+.digitalt img {
+    width: 760px;
+}
+
+.button2{
+    background-color: #222;
+    color: #ffff;
+    padding: 5px;
 }
 
 .market {
-    background-color: #FCE7B3;
+    background-color: #ffe6ac;
+    width: 760px;
+}
+
+.market img {
+    width: 760px;
+}
+
+.button3{
+    background-color: #222;
+    color: #ffff;
 }
 
 .videop {
-    background-color: #FCE7B3;
+    background-color: #ffe6ac;
+    width: 760px;
+}
+
+.videop img {
+    width: 760px;
+}
+
+.button4 {
+    background-color: #222;
+    color: #ffff;
 }
 
 .webdev {
-    background-color: #FCE7B3;
+    background-color: #ffe6ac;
+    width: 760px;
+}
+
+.webdev img{
+    width: 760px;
+}
+
+.button5 {
+    background-color: #222;
+    color: #ffff;
 }
 
 .prt {
-    background-color: #FCE7B3;
+    background-color: #ffe6ac;
+    width: 760px;
+}
+
+.prt img {
+    width: 760px;
+}
+
+.button6 {
+    background-color: #222;
+    color: #ffff;
 }
 
 .vision {
     background: url(../images/vision.jpg);
     background-size: 100% 100%;
+    width: 760px;
 }
 
 .vision h1, .vision p {
@@ -92,14 +179,30 @@
 }
 
 .button7 h2{
+    background-color: rgba(34, 34, 34, 0.537);
     color: #ffff;
 }
 
 .jd {
-    background-color: #FCE7B3;
+    background-color: #ffe6ac;
+    width: 760px;
+}
+
+.jd img {
+    width: 760px;
 }
 
 .br {
-    background-color: #FCE7B3;
+    background-color: #ffe6ac;
+    width: 760px;
 }
 
+.br img {
+    width: 760px;
+}
+
+footer {
+    background-color: #222;
+    color:#c78c06;
+    width: 760px;
+}
